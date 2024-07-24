@@ -1,0 +1,70 @@
+body{
+    background: #200016;
+    height: 100%;
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+header .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin: 30px;
+
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+
+}
+header ul li a:hover{
+    background-color: white;
+    color:#200016 ;
+}
+footer{
+    color: beige;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid: gap 30px;
+}
+.contact-form{
+    text-align: left;
+    border-radius: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5d2c75;
+    color: rgb(166, 144, 186);
+}
+button{
+    display: inline-block;
+    padding:12px 24px;
+    background-color: #e1dfe7;
+    color:#37094b;
+    border:none;
+    cursor: pointer;
+    transition: 0,3s;
+    border-radius: 20px;
+    }
