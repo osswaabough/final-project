@@ -68,3 +68,11 @@ button{
     transition: 0,3s;
     border-radius: 20px;
     }
+    body.light-mode {
+        background-color: #f28deb;
+    }
+        
+    
+    body.dark-mode {
+        background-color : #200016; 
+    }

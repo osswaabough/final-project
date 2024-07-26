@@ -61,11 +61,10 @@ body {
 }
 
 body.light-mode {
-    background-color: #ffffff; /* Light mode background color */
-    color: black; /* Light mode text color */
+    background-color: #f28deb;
 }
+    
 
 body.dark-mode {
-    background-color : black; /* Dark mode background color */
-    color: white; /* Dark mode text color */
+    background-color : #200016; 
 }

@@ -84,3 +84,11 @@ h2, p{
 footer{
     color: beige;
 }
+body.light-mode {
+    background-color: #f28deb;
+}
+    
+
+body.dark-mode {
+    background-color : #200016; 
+}
